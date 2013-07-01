@@ -15,17 +15,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    //Build a list of dummy values, each item should be an NSDictionary with the values 'title' and 'value'
     NSMutableArray *items = [NSMutableArray new];
     for (int i = 0; i < 10; i ++)
-    {
         [items addObject:@{ @"title" : @"Item Title", @"value" : @(i) }];
-    }
     
+    //initalise the view controller (using basic settings), see readme or header for more advanced options
     MOOSelectableListViewController *rootViewController = [[MOOSelectableListViewController alloc] initWithItems:items changedBlock:^(id title, id value) {
         
         NSLog(@"Selected item: %@ (%@)",title, value);
         
     }];
+    
+    //updates the interface when an item is selected (if set to NO, you can tap the currently "selected" value again if needed)
     rootViewController.selectionUpdatesIndicator = YES; //defaults to yes
     
     self.window.rootViewController = rootViewController;

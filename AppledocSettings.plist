@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--company-id</key>
+	<string>com.liamnichols</string>
+	<key>--project-company</key>
+	<string>Mubaloo</string>
+	<key>--project-name</key>
+	<string>MOOSelectableList</string>
+	<key>--output</key>
+	<string>~/help</string>
+</dict>
+</plist>

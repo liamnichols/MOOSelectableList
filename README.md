@@ -67,14 +67,13 @@ If you specify a `selectedItem` then this property should be left set to `YES`.
 Support
 -------
 
-This has only been tested on iOS 6.1 but feel free to adapt for iOS 5 if it needs it.
+iOS 5.0 + using ARC
 
 
 License
 -------
 
-If it breaks, its your problem, its distributed without warranty and what not.. Feel free to tweak it and use it for whatever you want.
-
+See LICENSE
 
 
 

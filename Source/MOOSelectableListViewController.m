@@ -11,6 +11,12 @@
 
 NSString *const cellIdentifierKey = @"cellIdentifier";
 
+@interface MOOSelectableListViewController ()
+
+@property (nonatomic) id selectedItem;
+
+@end
+
 @implementation MOOSelectableListViewController
 
 - (id)initWithItems:(NSArray *)items {

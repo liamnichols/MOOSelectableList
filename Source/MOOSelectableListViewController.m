@@ -53,6 +53,8 @@ NSString *const cellIdentifierKey = @"cellIdentifier";
         self.selectionUpdatesIndicator = YES;
 
         [self.tableView registerClass:cellClass forCellReuseIdentifier:cellIdentifierKey];
+        
+        self.contentSizeForViewInPopover = CGSizeMake(320, self.items.count * 44);
     }
     return self;
 }
